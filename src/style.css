@@ -1,0 +1,15 @@
+body,html {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+
+.content {
+    width: inherit;
+    height: inherit;
+    background-image: url("./jason-leung-poI7DelFiVA-unsplash.jpg");
+    background-size: cover;
+}

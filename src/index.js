@@ -1,6 +1,10 @@
 import "./style.css";
+import header from "./header.js";
 
 
 const content = document.getElementById("content");
 
-content.classList.add("content");
+let headerDiv = header();
+
+content.appendChild(headerDiv);
+
